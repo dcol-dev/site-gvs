@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,500&display=swap');
+
+
+
+
+.header-topo {
+    background-color: #ececec;
+
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+#header-menu {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+#button-menu {
+    background-color: #cc2229;
+}
+
+#button-menu-nav {
+    color: #ffffff;
+}
+
+.menu-links ul {
+    font-family: 'Inter', sans-serif;
+    font-size: 11pt;
+    font-weight: 600;
+
+}
+
+.menu-links ul li {
+    border-radius: 20px;
+    padding: 0px 18px;
+}
+
+.menu-links ul {
+
+    color: #ffffff;
+}
+
+.menu-links ul li:hover {
+    background-color: #cc2229;
+    transition: 1s;
+}
+
+.menu-links ul a:hover {
+    color: #fff;
+    
+}
+
+
+#empresas-toggle {
+    width: 100%;
+    background-color: #d1d1d100;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.botao-empresas {
+    background-color: #cc2229;
+
+}
+
+.botao-empresas button {
+    background-color: #cc2229;
+    color: white;
+    border: none;
+}
+
+#nav-empresas {
+    margin: 0;
+    padding: 84px 0px 0px 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    
+}
+
+#navbarNavDarkDropdown {
+    color: #ececec; 
+}
+
+
+
+
+.fundo-logos-slide {
+    display: flex;
+}
+
+
+.institucional {
+    margin-top: 80px;
+}
+
+
+.institucional-content {
+    padding: 50px 0px;
+    background-color: #fff;
+    margin: 50px 0px;
+    
+}
+
+.institucional-video {
+    width: 100%;
+    border: #ececec solid 10px;
+    border-radius: 25px;
+}
+
+#titulo-menu h2 {
+  font-family: 'Inter', sans-serif;
+    font-size: 15pt;
+    font-weight: 900;
+}
+
+.institucional P {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+
+#titulo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #cc2229;
+}
+
+
+#alinhar {
+    vertical-align: middle;
+}
+
+#margem-top {
+    margin-top: 80px;
+}
+
+
+.carrousel-slide img {
+    width: 100%;
+}
+
+
+.institucional {
+    margin-top: 80px;
+}
+
+
+.bg-nossa-historia {
+    background-image: url(/img/fundo-historia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.footer-principal {
+    background-color: #cc2229;
+}
+
+.footer-principal .container-fluid {
+    padding: 30px;
+}
+
+.rodape-contato h2 {
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    border-radius: 20px;
+    background-color: white;
+    background-size: contain;
+}
+
+.rodape-inicio {
+    color: white;
+    font-family: 'Roboto' sans-serif;
+}
+
+.rodape-inicio h4 {
+    font-weight: 700;
+    font-size: 18pt;
+}
+
+.rodape-inicio p {
+    font-weight: 400;
+    font-size: 12pt;
+}
+
+.rodape-empresas {
+    padding-top: 0px;
+    color: white;
+    font-family: 'Roboto' sans-serif;
+}
+
+.rodape-empresas h4 {
+    font-weight: 700;
+    font-size: 18pt;
+}
+
+.rodape-empresas a {
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 24pt;
+}
+
+
+
+.mapa-google {
+    margin-top: 20px;
+}
+
+
+.inform-rodape {
+    margin-top: 20px;
+    color: white;
+    font-family: 'Roboto' sans-serif;
+}
+
+.inform-rodape h2 {
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+.inform-rodape h2 img {
+    width: auto;
+}
+
+.inform-rodape p {
+    font-size: 10pt;
+    font-weight: 300;
+}
+
+
+@media (max-width: 768px) {
+    #header-menu {
+        position: relative;
+    }
+
+    #nav-empresas {
+        margin: 0;
+        padding: 0;
+    }
+
+
+}

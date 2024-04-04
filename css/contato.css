@@ -1,0 +1,22 @@
+.contato-fluid {
+    margin: 80px 0px 100px 0px;
+}
+
+.contato h2 {
+    font-weight: 900;
+}
+
+.contato {
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #404040;
+}
+
+.contato label {
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+.contato input {
+    margin-bottom: 20px;
+}

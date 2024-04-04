@@ -3,7 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,500&display=swap');
 
 
-
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
 
 .header-topo {
     background-color: #ececec;
@@ -103,7 +106,6 @@
 .institucional-content {
     padding: 50px 0px;
     background-color: #fff;
-    margin: 50px 0px;
     
 }
 
@@ -137,7 +139,7 @@
 }
 
 #margem-top {
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 
@@ -232,6 +234,63 @@
 .inform-rodape p {
     font-size: 10pt;
     font-weight: 300;
+}
+
+
+.slider-video {
+    height: calc(100vh - 130px);
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slider-video #myVideo {
+    height: auto;
+    left: 0;
+    min-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.text {
+    left: 50%;
+    max-width: 650px;
+    position: absolute;
+    
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.text h1 {
+    color: #fff;
+    font-size: 60px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 1.12;
+    text-align: center;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 900;
+}
+
+.text p {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-top: 24px;
+    padding: 0 90px;
+    text-align: center;
+    font-family: 'Roboto' sans-serif;
 }
 
 

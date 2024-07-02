@@ -8,9 +8,12 @@
     margin-top: 0; /* remove the gap so it doesn't close */
 }
 
+.img-logo-top {
+    width: 45%;
+}
+
 .header-topo {
     background-color: #ececec;
-
 }
 
 .container-fluid {
@@ -34,7 +37,7 @@
 
 .menu-links ul {
     font-family: 'Inter', sans-serif;
-    font-size: 11pt;
+    font-size: 9pt;
     font-weight: 600;
 
 }
@@ -65,6 +68,7 @@
     background-color: #d1d1d100;
     color: rgb(255, 255, 255);
     border: none;
+    font-size: 10pt;
 }
 
 .botao-empresas {
@@ -80,10 +84,10 @@
 
 #nav-empresas {
     margin: 0;
-    padding: 84px 0px 0px 0px;
+    padding: 72px 0px 0px 0px;
     font-family: 'Inter', sans-serif;
     font-weight: 100;
-    
+ 
 }
 
 #navbarNavDarkDropdown {
@@ -172,9 +176,12 @@
 .rodape-contato h2 {
     color: rgb(0, 0, 0);
     margin: 20px;
+    padding: 5px;
     border-radius: 20px;
     background-color: white;
     background-size: contain;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 .rodape-inicio {
@@ -224,7 +231,7 @@
 
 .inform-rodape h2 {
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 20pt;
 }
 
 .inform-rodape h2 img {
@@ -238,7 +245,7 @@
 
 
 .slider-video {
-    height: calc(100vh - 130px);
+    height: calc(100vh - 95px); /* Ajuste conforme necessário */
     position: relative;
     width: 100%;
     max-width: 100%;
@@ -248,7 +255,7 @@
 .slider-video #myVideo {
     height: auto;
     left: 0;
-    min-height: 100%;
+    min-height: calc(100vh - 130px); /* Ajuste conforme necessário */
     -o-object-fit: cover;
     object-fit: cover;
     position: absolute;
@@ -256,6 +263,7 @@
     width: 100%;
     z-index: -1;
 }
+
 
 .text {
     left: 50%;

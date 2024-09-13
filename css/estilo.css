@@ -87,7 +87,6 @@
     padding: 72px 0px 0px 0px;
     font-family: 'Inter', sans-serif;
     font-weight: 100;
- 
 }
 
 #navbarNavDarkDropdown {
@@ -286,6 +285,30 @@
     font-weight: 900;
 }
 
+.text_titulo {
+    color: #202020;
+    font-size: 30px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 1.12;
+    text-align: center;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+}
+
+.text_corpo {
+    color: #202020;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 1.12;
+    text-align: center;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 300;
+}
+
 .text p {
     color: #fff;
     display: block;
@@ -300,6 +323,7 @@
     text-align: center;
     font-family: 'Roboto' sans-serif;
 }
+
 
 
 @media (max-width: 768px) {

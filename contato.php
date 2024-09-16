@@ -22,7 +22,7 @@
 
                                     <!--Telefone-->
                                     <label for="telefone-form" class="form-label">Telefone</label>
-                                    <input type="tel" class="form-control" name="telefone-form" id="telefone-form">
+                                    <input type="number" class="form-control" name="telefone-form" id="telefone-form">
 
                                     <!--Endereco-->
                                     <label for="endereco-form" class="form-label">Endereço</label>

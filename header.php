@@ -131,7 +131,7 @@
             <div class="dropdown-center">
               <button class="btn btn-secondary dropdown-toggle" id="empresas-toggle" type="button"
                 data-bs-toggle="dropdown" aria-expanded="false"><img src="<?php echo get_template_directory_uri(); ?>/img/bomba-de-gasolina.png" alt="">
-                Posto Radar
+                Posto
               </button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="emp_posto.php"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/logo/logo-posto-radar.png"
@@ -143,7 +143,7 @@
             <div class="dropdown-center">
               <button class="btn btn-secondary dropdown-toggle jus" id="empresas-toggle" type="button"
                 data-bs-toggle="dropdown" aria-expanded="false"><img src="<?php echo get_template_directory_uri(); ?>/img/hotel.png" alt="" class="img-fluid">
-                Hotel Radar
+                Hotel
               </button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="emp_hotel.php"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/logo/Logo-Hotel.png" alt=""></a>
@@ -168,7 +168,7 @@
               <button class="btn btn-secondary dropdown-toggle" id="empresas-toggle" type="button"
                 data-bs-toggle="dropdown" aria-expanded="false"><img src="<?php echo get_template_directory_uri(); ?>/img/entrega-rapida.png" alt=""
                   class="img-fluid">
-                Camcam
+                Transportadora
               </button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="emp_camcam.php"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/logo/Logo-Camcam.png" alt=""></a>

@@ -1,4 +1,7 @@
-  <main>
+<?php include 'header.php'; ?>
+
+
+<main>
     <!--Slider-->
     <!-- <div>
       <div id="carouselExampleControlsNoTouching" class="carousel slide d-none d-lg-block" data-bs-ride="carousel"
@@ -57,26 +60,23 @@
 
 
     <section class="slider-video">
-      <video id="myVideo" autoplay loop muted src="img/banner-video2.mp4" type="video-mp4"></video>
-      <div class="text">
-        <!-- <h1>Grupo Valdir Saraiva</h1> -->
-        <!-- <p>Somos um grupo voltado a area de distribuição de produtos.</p> -->
-      </div>
+        <video id="myVideo" autoplay loop muted src="img/banner-video2.mp4" type="video-mp4"></video>
+        <div class="text">
+            <!-- <h1>Grupo Valdir Saraiva</h1> -->
+            <!-- <p>Somos um grupo voltado a area de distribuição de produtos.</p> -->
+        </div>
 
 
     </section>
 
-    </section>
+
+
+
+
+</main>
 
 
 
 
 
-    <!--Currículo-->
-
-
-
-
-
-
-  </main>
+<?php include 'footer.php'; ?>

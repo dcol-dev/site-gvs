@@ -7,7 +7,7 @@
           <div class="col-12 col-lg rodape rodape-contato">
             <div class="text-center text-lg-center rodape-contato">
               <img class="img-fluid" style="width:40%" src="img/LOGO-GRUPO-br.png" alt="">
-              <a class="nav-link text-center " href="contato.html">
+              <a class="nav-link text-center " href="contato.php">
                 <h2>Fale Conosco</h2>
               </a>
             </div>
@@ -15,19 +15,19 @@
 
 
           <div class="col-12 col-lg-2 text-center text-lg-start rodape-inicio">
-            <a class="nav-link" href="#inicio">
+            <a class="nav-link" href="index.php">
               <p>Início</p>
             </a>
-            <a class="nav-link" href="Institucional.html">
+            <a class="nav-link" href="Institucional.php">
               <p class="col">Sobre o grupo</p>
             </a>
-            <a class="nav-link" href="Institucional.html">
+            <a class="nav-link" href="Institucional.php">
               <p class="col">Nossa História</p>
             </a>
-            <a class="nav-link" href="contato.html">
+            <a class="nav-link" href="contato.php">
               <p class="col">Ouvidoria</p>
             </a>
-            <a class="nav-link" href="#trabalheconoscomenu">
+            <a class="nav-link" href="trabalhe_conosco.php">
               <p class="col">Trabalhe Conosco</p>
             </a>
           </div>
@@ -38,15 +38,15 @@
             </div>
             <div class="row text-center text-lg-start">
               <div class="col">
-                <a class="nav-link" href="emp_dimacol.html">Dimacol Atacado</a>
-                <a class="nav-link" href="emp_vjc.html">VJC Atacado</a>
-                <a class="nav-link" href="emp_mvs.html">MVS Atacadista</a>
-                <a class="nav-link" href="emp_aco.html">Atacado de Aço</a>
-                <a class="nav-link" href="emp_varejos.html">Dimacol Varejo</a>
+                <a class="nav-link" href="emp_dimacol.php">Dimacol Atacado</a>
+                <a class="nav-link" href="emp_vjc.php">VJC Atacado</a>
+                <a class="nav-link" href="emp_mvs.php">MVS Atacadista</a>
+                <a class="nav-link" href="emp_aco.php">Atacado de Aço</a>
+                <a class="nav-link" href="emp_varejos.php">Dimacol Varejo</a>
               </div>
               <div class="col">
-                <a class="nav-link" href="emp_posto.html">Posto Radar</a>
-                <a class="nav-link" href="emp_hotel.html">Hotel Radar</a>
+                <a class="nav-link" href="emp_posto.php">Posto Radar</a>
+                <a class="nav-link" href="emp_hotel.php">Hotel Radar</a>
                 <a class="nav-link" href="emp_camcam">Camcam Transportes</a>
                 <a class="nav-link" href="https://cachacapocodapedra.com.br">Poço da Pedra</a>
               </div>

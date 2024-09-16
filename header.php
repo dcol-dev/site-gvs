@@ -31,7 +31,7 @@
       <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container text-center">
           <div class="col-12 col-sm-6 col-lg-3 ">
-            <a class="navbar-brand" href="#inicio"><img src="img/GrupoValdirSaraivaHead.png"  alt=""
+            <a class="navbar-brand" href="index.php"><img src="img/GrupoValdirSaraivaHead.png"  alt=""
                 class="img-fluid img-logo-top"></a>
           </div>
 

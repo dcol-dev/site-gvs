@@ -1,6 +1,4 @@
-<?php include 'header.php'; ?>
-
-
+<?php include('header.php'); ?>
 <main>
     <!--Slider-->
     <!-- <div>
@@ -60,7 +58,7 @@
 
 
     <section class="slider-video">
-        <video id="myVideo" autoplay loop muted src="img/banner-video2.mp4" type="video-mp4"></video>
+        <video id="myVideo"  loop muted src="<?php echo get_template_directory_uri();?>/img/banner-video2.mp4" type="video-mp4"></video>
         <div class="text">
             <!-- <h1>Grupo Valdir Saraiva</h1> -->
             <!-- <p>Somos um grupo voltado a area de distribuição de produtos.</p> -->
@@ -79,4 +77,4 @@
 
 
 
-<?php include 'footer.php'; ?>
+<?php include('footer.php');?>

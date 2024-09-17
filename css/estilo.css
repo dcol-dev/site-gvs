@@ -37,16 +37,32 @@
     color: #ffffff;
 }
 
+#menu-empresas li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+  }
+
+  #menu-principal li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 12pt;
+  }
+#menu-principal li a:hover {
+    color: #fff;
+}
+
+
 .menu-links ul {
     font-family: 'Inter', sans-serif;
-    font-size: 9pt;
+    font-size: 11pt;
     font-weight: 600;
     
 }
 
 .menu-links ul a {
     font-family: 'Inter', sans-serif;
-    font-size: 9pt;
+    font-size: 11pt;
     font-weight: 600;
     
 }
@@ -55,6 +71,8 @@
     border-radius: 20px;
     padding: 0px 18px;
     display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .menu-links ul {
@@ -64,7 +82,7 @@
 
 .menu-links ul li:hover {
     background-color: #cc2229;
-    transition: 1s;
+    transition: 1.5s;
 }
 
 .menu-links ul a:hover {
@@ -74,7 +92,7 @@
 
 .page_item a { 
     text-decoration: none;
-    color: #d80c0c;
+    color: #fff;
 }
 
 
@@ -338,6 +356,7 @@
     text-align: center;
     font-family: 'Roboto' sans-serif;
 }
+
 
 
 

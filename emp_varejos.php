@@ -81,7 +81,7 @@
         Rua Marcelino Benvindo dos Santos, s/n – Centro Cep: 46400-000</p>
       <p class="text_corpo"><b>Telefone:</b> (77) 98108-0875 – (77) 3454-1826</p>
       <p class="text_corpo"><b>Gerente:</b> William Xavier</p>
-      <a name="" id="" class="btn btn-danger mt-3 mb-1 col-10" target="_blank" href="https://maps.app.goo.gl/PF8kXnmHQzDaHJoR8" role="button"><img src="img/local.png" class="img-fluid me-2">Toque para abrir no mapa</a>
+      <a name="" id="" class="btn btn-danger mt-3 mb-1 col-10" target="_blank" href="https://maps.app.goo.gl/PF8kXnmHQzDaHJoR8" role="button"><img src="<?php echo get_template_directory_uri();?>/img/local.png" class="img-fluid me-2">Toque para abrir no mapa</a>
       <a name="" id="" class="btn btn-success mt-3 mb-1 col-10" target="_blank" href="https://api.whatsapp.com/send?phone=5577981080875&text=Olá,%20Dimacol%20de%20Caetité!%20" role="button"><img src="img/whatsapp.png" class="img-fluid me-2">Enviar Mensagem</a>
     </div>
     <div class="col-12 col-md-3 mb-4 me-3 text-center rounded p-3" style="background-color: rgba(41, 41, 41, 0.07);">

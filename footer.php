@@ -94,6 +94,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/slider.js"></script>
   <script src="js/script.js"></script>
+
+  
 </body>
 
 </html>
